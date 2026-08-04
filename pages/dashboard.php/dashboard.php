@@ -1,3 +1,15 @@
+
+<?php
+require("$_SERVER[DOCUMENT_ROOT]/UC11 NOVO PROJETO/config/parametros.php");
+
+// conexão com o banco de dados
+
+
+require(DIR_ROOT .  '/config/conn.php');
+
+?>
+
+
 <!doctype html>
 <html lang="pt-br">
 
@@ -6,12 +18,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>sistema de exemplo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="<? BASE_URL ?>/assets/css/style.css">
 </head>
 
 <body>
   <!-- Navbar -->
 
-  <?php include("../../include/navbar.php"); ?>
+  <?php require(DIR_ROOT . '/include/navbar.php'); ?>
 
 
    <div class="container-fluid bg-warning">

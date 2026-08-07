@@ -1,13 +1,13 @@
 <?php
-// _DIR_ = constante magica do php que retorna o caminho do arquivo atual
-// que retorna o caminho do diretorio atual do arquivo
-//echo __DIR__;
- // echo dirname(__DIR__); . '<br>';
+// __DIR__ = constante mágica do PHP
+// que retorna o caminho do diretório atual do arquivo.
+// echo dirname(__DIR__) . '<br>';
 // echo __DIR__ . '<br>';
+// define('DIR_ROOT',  __DIR__ . '/..');
 
-// define('DIR_ROOT', __DIR__ . '/../');
+// usar esta constante para definir caminhos no BackEnd
+define('DIR_ROOT', dirname(__DIR__));
+// usar esta constante para definir caminhos no FrontEnd
 
-// usar 
-define('DIR_ROOT' , dirname(__DIR__));
-
-define('BASE_URL', 'http://localhost/UC11');
+// define significa definir uma constante, que não pode ser alterada durante a execução do script
+define('BASE_URL', 'http://localhost/UC11NOVOPROJETO');

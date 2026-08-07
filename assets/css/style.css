@@ -1,0 +1,32 @@
+/* :root -  representa o elemento raiz do documento, que é o elemento <html> */
+:root { 
+    --margin-top-navbar: 56px; /* Define a variável CSS --margin-top-navbar com o valor de 56 pixels */
+}
+
+#main-container {
+    margin-top: 56px; /**/
+
+}
+
+ @media (max-width: 991px) {
+        .main {
+            margin-left: 0; /* */
+        }
+    }   
+
+#sidebar {
+    align-items: start; /* start significa que o conteúdo será alinhado ao início do contêiner */
+    width: 200px;
+     background-color: rgb(35, 176, 211);
+     height: 100vh;
+
+     /* vh significa "viewport height" e representa a altura da janela de visualização. 100vh significa que o elemento terá a altura total da janela de visualização */
+    
+
+
+}
+
+
+a {
+    text-decoration: none;
+}
